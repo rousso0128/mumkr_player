@@ -122,9 +122,9 @@ box-shadow:0px 0px 15px  #FFCC00;}
 
 .description .game_ico ul li:nth-child(1) { border-left:1px solid #bcbcbc;border-right:1px solid #bcbcbc;}
 .description .game_ico ul li:nth-child(3) { border-left:1px solid #bcbcbc;border-right:1px solid #bcbcbc;}
-.description .game_ico ul li:nth-child(1) span {color:#ffe1ae;}
+.description .game_ico ul li:nth-child(1) span {color:#f00;}
 .description .game_ico ul li:nth-child(2) span {color:#ffe1ae;}
-.description .game_ico ul li:nth-child(3) span {color:#f00;}
+.description .game_ico ul li:nth-child(3) span {color:#ffe1ae;}
 
 /*淨營收達成回饋計劃(bonus plan)*/
 .description .bonus_plan {width: 90%;margin: 0 auto;}
