@@ -1,0 +1,91 @@
+@media (max-width: 1100px) {
+/*body { background-size:200% auto;}*/
+.background { background-size:200% auto;}
+}
+@media (max-width: 1000px) {
+}
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 800px) {
+.top_bar{ display:none;}
+/*導覽列手機版*/
+.top_bar_m{display: block;}
+.nav_m_menu {display: block;}
+/*全球遊戲市場發展現在加入*/
+.description .game_ico ul li { width:90%;margin:0 5%}
+.description .game_ico ul li:nth-child(1) { border:none;}
+.description .game_ico ul li:nth-child(3) { border:none;}
+.description .game_ico ul li span {margin:10px 0 0 0;}
+/*團隊*/
+.description .team ul li {width:100%;}
+.description .team .team_s ul li {width:25%;}
+
+
+}
+@media (max-width:640px) {
+/*簡介*/
+.header .notice01 ul {width:90%;padding: 0 5%;float: left;}
+.header .notice01 ul li {font-size: 13px;line-height: 26px;}
+.header .notice01 span {width:90%;float: left; margin:0 5%;}
+.header .notice01 span img {max-width:81px;margin:20px auto;float: none;}
+/*全球遊戲市場發展現在加入*/
+.description .intro .int01 {width:96%;}
+.description .intro .int02 {width:96%;}
+/*交易計畫*/
+.description .trade_plan .tp_box .tp {float: left;width:96%;margin: 2%;}
+/*保證*/
+.description .guarantee ul {width: 90%;margin: 0 5%;}
+/*資金運用*/
+.description .funds ul {width: 90%;margin: 0 5%;}
+/*團隊*/
+.description .team ul li {width:100%;}
+.description .team .team_s ul li {width:33.3%;}
+}
+@media (max-width:540px) {
+
+}
+@media (max-width:480px) {
+.background { background-size:400% auto;}
+/*body { background-size:400% auto;}*/
+/*開發商+平台*/
+.header .company_store .cs_com { width:96%;}
+.header .company_store .cs_sto {width:96%;}
+/*預購按鈕*/
+.header .btn_buy a {width:90%;margin: 0 5%;}
+/*版權區域*/
+.footer .copyright{margin: 3% auto;width:100%;}
+
+/*團隊*/
+.description .team ul li {width:100%;}
+.description .team .team_s ul li {width:50%;}
+.description .team ul li:nth-child(2) .resume_list { border: none;}
+.description .team ul li:nth-child(5) .resume_list { border: none;}
+/*版權區域*/
+.center .copyright .social { width:80%; float:left;margin: 0 10% 20px 10%;}
+
+/*往上爬*/
+.gotop {bottom:25px;right:25px;}
+}
+@media (max-width: 400px) {
+/*大LOGO*/
+.header h1 {font-size:20px;}
+.description .intro h2 {font-size:20px;font-weight: normal;}
+.description .bonus_plan h2 {font-size:20px;font-weight: normal;}
+.description .game_ico h2 {font-size:20px;font-weight: normal;}
+.description .public h2 {font-size:20px;font-weight: normal;}
+.description .trade_plan h2 {font-size:20px;font-weight: normal;}
+.description .funds h2 {font-size:20px;font-weight: normal;}
+.description .guarantee h2 {font-size:20px;font-weight: normal;}
+.description .team h2 {font-size:20px;font-weight: normal;}
+
+.description .public .int_h1 {font-weight: normal;}
+.description .trade_plan h3 {font-size:15px;font-weight:normal;float: left;width:90%; margin:0 5%;}
+.description .trade_plan .tp_box .tp .symbol h3 {font-weight: normal;}
+/*導覽列手機版*/
+.nav_m_menu {line-height: 50px;display: block;}
+.nav_m_menu div .icon_hamber {max-width: 48px;margin:6px 8px 2px 0px;}
+.nav_m_menu div .icon_immlogo {max-width:140px;margin:10px 0 0 15px}
+.top_bar_m {top:50px;display: block;}
+}
